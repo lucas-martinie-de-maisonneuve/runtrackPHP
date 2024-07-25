@@ -1,3 +1,5 @@
+<!-- Développez un algorithme qui affiche le nombre d’arguments $_POST. -->
+
 <!DOCTYPE html>
 <html lang="fr">
 

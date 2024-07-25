@@ -1,3 +1,5 @@
+<!-- Créez un algorithme qui affiche dans un tableau HTML l’ensemble des arguments $_GET et les valeurs associées -->
+
 <!DOCTYPE html>
 <html lang="fr">
 

@@ -1,3 +1,5 @@
+<!-- Développez un algorithme qui affiche le nombre d’arguments $_GET. -->
+
 <!DOCTYPE html>
 <html lang="fr">
 

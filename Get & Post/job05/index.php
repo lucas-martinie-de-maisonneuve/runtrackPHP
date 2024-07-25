@@ -1,3 +1,7 @@
+<!-- Créez un formulaire de connexion de type POST ayant deux champs username et password.
+Après validation du formulaire :
+Si le username est “John” et le password est “Rambo” afficher “ce n'est pas ma guerre”. Sinon afficher “votre pire cauchemar”  -->
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -23,7 +27,7 @@
     </form>
     <?php
     
-    if ($_POST['username'] === "John")
+    if ($_POST['username'] === "John" && $_POST['password'] == "Rambo")
         echo "Ce n'est pas ma guerre ";
     else
         echo "Votre pire cauchemar"
