@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Job01</title>
+    <title>Get Job02</title>
 </head>
 
 <body>
     <form action="index.php" method="get">
         <div>
-            <label for="say">Quelle salutation voulez-vous adresser&nbsp;?</label>
+            <label for="say">Quelle salutation voulez-vous adresser ?</label>
             <input name="say" value="Salut" />
         </div>
         <div>

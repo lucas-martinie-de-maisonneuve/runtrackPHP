@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Job01</title>
+    <title>Post Job03</title>
 </head>
 
 <body>
-    <form action="index.php" method="get">
+    <form action="index.php" method="POST">
         <div>
-            <label for="say">Quelle salutation voulez-vous adresser ?</label>
+            <label for="say">Quelle salutation voulez-vous adresser&nbsp;?</label>
             <input name="say" value="Salut" />
         </div>
         <div>
@@ -23,8 +23,9 @@
     </form>
 
     <?php
-    // Vérifie s'il y a des arguments $_GET et affiche leur nombre
-    echo "<p>Nombre d'arguments GET : ".count($_GET)."</p>";
+        // Afficher le nombre d'arguments $_POST
+        $num_args = count($_POST);
+        echo "<br>Nombre d'arguments envoyés : " . $num_args;
     ?>
 </body>
 
